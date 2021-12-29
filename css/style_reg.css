@@ -1,0 +1,95 @@
+#main_container {
+    background-color: rgb(231, 252, 229);
+    margin: auto;
+    width: 60%;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+#main_container label {
+    background-color: rgb(104, 170, 98);
+    height: 20px;
+    border: 2px rgb(29, 70, 71);
+    display: inline;
+    width: 400px;
+}
+#main_container #oy {
+    border: 2px rgb(104, 170, 98);
+    border-style: dashed;
+}
+
+#red_span {
+    color:red;
+}
+
+h2 {
+    color:rgb(14, 129, 10)
+}
+
+#your_name input {
+    width: 60%;
+    background-color: saddlebrown;
+}
+
+#your_phone {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 50px;
+}
+
+.your_name label {
+    margin: 10px 0px;
+    padding-left: 26px;
+    width: 230px;
+    text-align: right;
+    display: inline-block;
+}
+
+#ggtr label {
+    padding-left:26px;
+    width:230px;
+    text-align: right;
+    display:inline-block;
+}
+
+#ggtr input {
+    width:300px;
+}
+
+#area textarea {
+    left:28.5%;
+    position:relative;
+}
+#area label {
+    padding-left:26px;
+    width:230px;
+    height: 56px;
+    text-align: right;
+    display:inline-block;
+    position: absolute;
+    
+}
+
+#ggtrr div {
+    width: 15%;
+    width: fit-content;
+    padding: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#ggtrr {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: auto auto auto auto;
+}
+
+#ggtrr label {
+    padding-left:26px;
+    width:230px;
+    text-align: right;
+}
+#ggtrr p {
+width:100%;
+}

@@ -1,0 +1,23 @@
+#h3_red{
+    color:red;
+}
+
+.half {
+    float:left;
+    width:35%;
+ 
+}
+
+
+.left_text {
+    text-align: right;
+    direction: rtl;
+}
+.left {
+    float:left;
+    width:64%;
+
+}
+#gtt{
+    width: 100%;
+}

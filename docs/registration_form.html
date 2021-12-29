@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registraation Form</title>
+        <link rel="stylesheet" href="../css/style_two.css">
+        <link rel="stylesheet" href="../css/style_reg.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a class="logoo" href="https://www.iti.gov.eg/" style="float:right"><img
+                    src="../ITI_logo.png" alt="ITI Logo" width="150" height="75"></a>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./road_map.html">Road Map</a></li>
+                    <li><a href="#">Registration Form</a></li>
+                    <li><a href="https://www.iti.gov.eg/">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+            
+        <div id="main_container">
+            <h2>Register - Create Account </h2>
+            <p id="oy">Feild marked with <span id="red_span">*</span> are complusory feilds</p>
+
+            <form action="/action_page.php">
+
+            <div class="your_name"id="ggtr">
+                <label for="lname"><span id="red_span">*</span>Your Name</label>
+                <input type="text" name="name"/>
+            </div>
+            <div class="your_name"id="ggtr">
+                <label for="lname"><span id="red_span">*</span>E-Mail ID</label>
+                <input type="email" name="name"/>
+            </div>
+            <div class="your_name"id="ggtr">
+                <label for="lname">Alternative E-Mail ID</label>
+                <input type="email" name="name"/>
+            </div>
+            <div class="your_name" id="ggtrr">
+                <label for="lname">Your Phone</label>
+                <div>
+                    <p>Country Code</p>
+                    <input type="number" name="name"/>
+                </div>
+                <div>
+                    <p>City Code</p>
+                    <input type="number" name="name"/>
+                </div>
+                <div>
+                    <p>Phone</p>
+                    <input type="number" name="name"/>
+                </div>
+            </div>
+            <div class="your_name"id="ggtr">
+                <label for="lname">Mobile Phone</label>
+                <input type="number" name="name"/>
+            </div>
+            <div class="your_name" id="area">
+                <label for="lname"><span id="red_span">*</span>Your Postal Adress</label>
+                <textarea name="postal_code" rows="4" cols="50"> </textarea>
+            </div>
+            <div class="your_name"id="ggtr">
+                <label for="lname"><span id="red_span">*</span>Country</label>
+                <select name="Countries">
+                    <option value="Selecct" unselected>--------- Select one --------</option>
+                    <option value="USA">USA</option>
+                    <option value="Egypt">Egypt</option>
+
+                  </select>
+            </div>
+            <div class="your_name" id="ggtr">
+                <label for="lname"><span id="red_span">*</span>Password</label>
+                <input type="password" name="name"/>
+            </div>
+            <div class="your_name"id="ggtr">
+                <label for="lname"><span id="red_span">*</span>Re - Enter Password</label>
+                <input type="password" name="name"/>
+            </div>
+
+
+
+
+
+            
+            <div>
+                <center><input type="checkbox"  name="agree" value="agree">
+                    <label for="agree" style="background-color: rgb(231, 252, 229);"> I accept the <a href="#">terms of Use</a></label><br></center>
+            </div>
+            <div>
+             <center><input type="submit" name="Continue" value="Continue >>">
+                <input type="reset" name="Reast" value="Reast"></center>
+            </div>
+        </form>
+        </div>
+            <footer>
+                <hr>
+                <p><center>Copyright 2021 by Noha Salah &copy;. All Rights Reserved</center></p>
+            </footer>
+    </body>
+</html>
